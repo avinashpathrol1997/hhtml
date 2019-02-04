@@ -1,0 +1,69 @@
+<html>
+	<head>
+			<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+Official Themes
+		<title>Sheldon's | Login</title>
+		<script src="script.js"></script>
+	</head>
+<body background="" style="height:100%" text="white">
+	<body>
+			<style>
+			.box1{
+				width:100px;
+				background-color:red;
+				padding:10px 50px;
+				border:10px solid yellow;
+			     }
+			</style>
+
+		<hr>
+		<div  class="container" align="center">
+		<div class="container">
+		<button type="button" class="btn btn-success" onclick="location.href='index.html';">Home</button>
+		<button type="button" class="btn btn-danger" onclick="location.href='#.html';">Login</button>
+		<button type="button" class="btn btn-info" onclick="location.href='about.html';">About</button>
+		<button type="button" class="btn btn-primary" onclick="location.href='contact.html';">Contact</button>
+		</div>
+		<hr>
+		<div align="center">
+		<img src="loginimage.png" width='185'></img>
+		</div>
+		<form name="f1" align="center" onsubmit="return validateLogin()" action="admin-dashboard.html"  method="post" >
+		<fieldset width="50%">
+			<legend><b><h2 style="color:white;">Login</b></h2></legend>
+				<input type="radio" name="who" value="Employee" ><h8 style="color:white;">Employee</h8>
+				<input type="radio" name="who" value="Admin"><h8 style="color:white;">Admin</h8>
+				<br>
+		<table align="center">
+			<tr><br>
+				<div>
+				<label for="uname" style="color:white;"></lable>
+				<input type="text" name="username" id="une" placeholder="Enter Name" class="form-control"/>
+				</div>
+			</tr>
+					<tr>
+		<div>
+				<label for="uname" style="color:white;"></lable>
+				<input type="password" name="password" id="pwde" placeholder="Enter Password" class="form-control"/>
+				</div>
+
+			</tr>
+			<tr>
+				
+				<button type="submit" class="btn btn-danger" value="Login" name="login-btn" onClick="validateLogin()">Login</button>
+				<button type="reset" name="reset-btn" value="Reset" class="btn btn-primary">Reset</button>
+				<button type="button"  class="btn btn-info" name="register-page-btn" value="Register" onclick="location.href='register.html';">Register</button>
+	
+			</tr>
+		</table>	
+		</fieldset>	
+		</form>
+	</body>
+</html>

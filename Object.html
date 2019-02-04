@@ -1,0 +1,58 @@
+<html>
+	<head>
+		<script>
+			var obj = new Object();
+			obj.name="Ravi";
+			obj.age=25;
+			obj.salary=12000;
+			
+		function Emp(name,age,salary)
+		{	
+			this.name=name;
+			this.age=age;
+			this.salary=salary;
+		}
+					var showLen = new Function("param","alert('length of'+param+'is:'+param.length)");
+					var demoFunctn=showLen;
+	</script>
+	</head>
+	<body>
+		<h1>Object Demo</h1>
+		<hr>
+		<h2>
+		<form name="f1">
+			Enter string<input type="text" name="t1">
+			<input type="button" value="LENGTH1" onclick="showLen(t1.value)">
+			<input type="button" value="LENGTH2" onclick="demoFunctn(t1.value)">
+		</form>
+		<script>
+		document.write("<br>Name:"+obj.name);
+		document.write("<br>Age:"+obj.age);
+		document.write("<br>Salary:"+obj.salary);
+		</script>
+		<hr>
+		<script>
+	
+			e1=new Emp("Avinash",21,250100);
+			e2=new Emp("Gritesh",41,550100);
+		document.write("<br>Name:"+e1.name);
+		document.write("<br>Age:"+e1.age);
+		document.write("<br>Salary:"+e1.salary);
+		document.write("<hr>");
+		document.write("<br>Name:"+e2.name);
+		document.write("<br>Age:"+e2.age);
+		document.write("<br>Salary:"+e2.salary);
+		</script>
+		<hr>	<h2>
+			<script>
+				var emp={'name':'prateek','age':21,'salary':320200};
+				document.write("<br>Name:"+emp.name);
+
+				document.write("<br>AGE:"+emp.age);
+				document.write("<br>salary:"+emp.salary);	
+</script>
+</h2>
+</body>
+</html>
+	
+	

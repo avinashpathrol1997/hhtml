@@ -1,0 +1,45 @@
+<html>
+	<head>
+		<title>Creative World | Register</title>
+		<script src="script.js"></script>
+	</head>
+
+	<body background="cam2.png" style="height:100%" text="white">
+		<hr>
+		<div class="topbar" align="center" text="white">
+  			<a href="index.html" style="color:white;">Home</a>
+  			<a href="login.html"style="color:white;">Login</a>
+  			<a href="about.html"style="color:white;">About</a>
+ 			<a href="contact.html"style="color:white;">Contact</a>
+		</div>
+		<hr>
+		
+		<h2 align="center" >Register Here</h2>
+		<div align="center">
+		<form align="center" name="register" onsubmit="return validateReg()" action="login.html" >
+		<fieldset align="center" style="width:500px">
+		<legend>Enter Details</legend>
+		<table align="center">
+			<tr>
+				<td><input type="text" name="username" placeholder="Enter Username"><i><span id="une1"></span></i></td>
+			</tr>
+			<tr>
+				<td><input type="password" name="password" placeholder="Enter Password"><i><span id="pwde1"></span></i></td>
+			</tr>
+			<tr>
+				<td><input type="password" name="cnf-password" placeholder="Confirm Password" ></td>
+			</tr>
+			<tr>
+				<td><input type="text" name="email" placeholder="Enter Email ID"></td>
+			</tr>
+			<tr>
+				<td><input type="submit" name="register-btn" value="Register"onClick="validateReg()">
+				<input type="reset" name="reset-btn" value="Reset">
+				<a href="login.html"><input type="button" name="login-page-btn" value="Login"></a></td>
+			</tr>
+		</table>
+		</fieldset>
+		</form>
+		</div>
+	</body>
+</html>
